@@ -67,3 +67,5 @@ gem "rubocop-rails", "~> 2.29"
 gem "devise", "~> 4.9"
 
 gem "rspec-rails", "~> 7.1", groups: [ :development, :test ]
+
+gem "shoulda-matchers", "~> 6.4", group: :test
