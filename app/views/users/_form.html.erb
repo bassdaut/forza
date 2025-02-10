@@ -1,0 +1,18 @@
+<%= form_for user do |form| %>
+  <%= form.label :email %>
+  <%= form.email_field :email %>
+
+  <%= form.label :password %>
+  <%= form.password_field :password %>
+
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+
+  <%= form.label :surname %>
+  <%= form.text_field :surname %>
+
+  <%= form.label :role %>
+  <%= form.select :role, options_for_select(options_for_roles, user.role) %>
+
+  <%= form.submit %>
+<% end %>
