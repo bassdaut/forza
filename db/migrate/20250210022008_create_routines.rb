@@ -4,7 +4,7 @@ class CreateRoutines < ActiveRecord::Migration[8.0]
       t.string :name
       t.references :trainer, null: false, type: :uuid, foreign_key: { to_table: :users }
       t.references :trainee, null: false, type: :uuid, foreign_key: { to_table: :users }
-      
+
       t.timestamps
     end
   end
