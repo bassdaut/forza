@@ -63,7 +63,7 @@ group :test do
   gem "shoulda-matchers", "~> 6.4"
 end
 
-gem "rubocop-rails", "~> 2.29"
+gem "rubocop-rails", "~> 2.30"
 
 gem "devise", "~> 4.9"
 
